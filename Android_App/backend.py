@@ -17,4 +17,3 @@ with open("Android_App/mode.txt", "w") as file:
     file.write(on_off + "\n" + mode + "\n" + colour)
     
 s3.Object("light-control-app", "mode.txt").upload_file("Android_App/mode.txt")
-s3.Object("light-control-app", "whether.txt").upload_file("Android_App/yes.txt")
