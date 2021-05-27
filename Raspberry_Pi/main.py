@@ -1,4 +1,5 @@
 import boto3
+# Before upload it to RPi you need to add "#", before import botostubs. It nothing changes, only needed to colour in VS Code :D
 import botostubs
 from datetime import datetime
 from time import sleep
