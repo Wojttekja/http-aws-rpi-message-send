@@ -74,8 +74,8 @@ while True:
     if check():
         print("Zmienilo sie\t", datetime.now())
         session = boto3.Session(
-            aws_access_key_id='AKIAZPLFBF74LVKRVSMA',
-            aws_secret_access_key='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',
+            aws_access_key_id='Oj nie nie B)',
+            aws_secret_access_key='tym bardziej nie B))',
         )
         s3 = session.resource('s3')
         s3.Bucket('light-control-app').download_file('mode.txt', 'sterowanie_swiatlem/last_mode.txt')
